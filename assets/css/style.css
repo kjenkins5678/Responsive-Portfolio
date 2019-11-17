@@ -282,10 +282,12 @@ input[type=submit]{
     }
 
     .work{
+        width: 90%;
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
+
     }
 
 }
