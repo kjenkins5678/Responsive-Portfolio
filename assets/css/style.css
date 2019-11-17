@@ -218,6 +218,28 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 980px) {
-    
+.main-section{
+    max-width: 650px;
 }
+}
+
+@media screen and (max-width: 768px) {
+    .main-section{
+        margin: auto;
+        float: none;
+
+    }
+    .sidebar{
+
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .clearfix{
+        overflow: auto;
+    }
+
+    }
 
